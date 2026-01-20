@@ -1,4 +1,4 @@
-// Stillwater Integrative Hypnotherapy
-// Basic JavaScript placeholder
-
-console.log("Stillwater site loaded successfully.");
+(function () {
+  var y = document.getElementById("year");
+  if (y) y.textContent = new Date().getFullYear();
+})();
