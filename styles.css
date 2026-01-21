@@ -149,6 +149,25 @@ body {
   
 }
 
+.schedule {
+  margin-top: 1.5rem;
+}
+
+.schedule-button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #dcded8;
+  color: #2f2f2f;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.schedule-button:hover {
+  background-color: #cfd3cc;
+}
 
 
 a {
