@@ -1,12 +1,6 @@
 * {
   box-sizing: border-box;
 }
-body {
-  background-color: #f7f9f8;
-  color: #1f2a2e;
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.6;
-}
 
 body {
   margin: 0;
@@ -38,59 +32,30 @@ header p {
   font-size: 1.1rem;
   max-width: 700px;
   margin: 0 auto;
-  
 }
 
-.tagline {
-  margin-top: 0.75rem;
-  font-size: 1.1rem;
-  color: #555;
+section {
+  background-color: #ffffff;
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 900px;
+  border-radius: 6px;
 }
 
-.intro {
-  margin-top: 2rem;
-  font-size: 1.05rem;
-}
-
-.offer {
+.offer,
+.about,
+.faq,
+.expectations,
+.contact {
   margin-top: 3.5rem;
   padding-top: 2rem;
   border-top: 1px solid #dcded8;
 }
 
-.offer h2 {
-  font-size: 1.7rem;
-  font-weight: 500;
-  margin-bottom: 0.5rem;
-}
-
-.price {
-  font-size: 1.3rem;
-  font-weight: 600;
-  margin-bottom: 1rem;
-}
-
-.about {
-  margin-top: 3.5rem;
-  padding-top: 2rem;
-  border-top: 1px solid #dcded8;
-}
-
-.about h2 {
+h2 {
   font-size: 1.6rem;
   font-weight: 500;
-}
-
-.faq {
-  margin-top: 3.5rem;
-  padding-top: 2rem;
-  border-top: 1px solid #dcded8;
-}
-
-.faq h2 {
-  font-size: 1.6rem;
-  font-weight: 500;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.2rem;
 }
 
 .faq-item {
@@ -103,77 +68,10 @@ header p {
   margin-bottom: 0.4rem;
 }
 
-.faq-item p {
-  margin: 0;
-  color: #444;
-}
-
-<section class="expectations">
-  <h2>What to Expect Before Your Session</h2>
-
-section {
-  background-color: #ffffff;
-  margin: 2rem auto;
-  padding: 2rem;
-  max-width: 900px;
-  border-radius: 6px;
-  
-}
-
-  <p>
-    Before your session, you do not need to prepare in any special way. There is no requirement to
-    practice relaxation, clear your mind, or know exactly what you want to work on.
-  </p>
-
-  <p>
-    Sessions take place in a calm, supportive setting. You will begin with a brief conversation to
-    discuss what you are experiencing and what you hope to gain from the session. You are always
-    welcome to share only what feels comfortable.
-  </p>
-
-  <p>
-    Hypnotherapy does not require you to “go deep” or lose awareness. The process is gentle and paced
-    according to your needs. If at any point something does not feel right, we adjust. Your comfort
-    and sense of safety are central to the work.
-  </p>
-
-  <p>
-    After the session, many people report feeling calmer, clearer, or more grounded. Experiences vary,
-    and there is no right or wrong response. Follow-up guidance will be provided if helpful.
-  </p>
-</section>
-
-.expectations {
-  margin-top: 3.5rem;
-  padding-top: 2rem;
-  border-top: 1px solid #dcded8;
-}
-
-.expectations h2 {
-  font-size: 1.6rem;
-  font-weight: 500;
-  margin-bottom: 1.2rem;
-}
-
+.faq-item p,
 .expectations p {
   margin-bottom: 1rem;
   color: #444;
-}
-
-.contact {
-  margin-top: 3.5rem;
-  padding-top: 2rem;
-  border-top: 1px solid #dcded8;
-}
-
-.contact h2 {
-  font-size: 1.6rem;
-  font-weight: 500;
-  
-}
-
-.schedule {
-  margin-top: 1.5rem;
 }
 
 .schedule-button {
@@ -185,13 +83,11 @@ section {
   font-size: 0.95rem;
   font-weight: 500;
   border-radius: 4px;
-  transition: background-color 0.2s ease;
 }
 
 .schedule-button:hover {
   background-color: #cfd3cc;
 }
-
 
 a {
   color: #2f6f73;
@@ -201,24 +97,13 @@ a {
 
 a:hover {
   text-decoration: underline;
-
-}
-
-.site-footer {
-  background-color: #e9ece8;
-  border-top: 1px solid #d6dad4;
-  margin-top: 4rem;
-}
-
-.site-footer p {
-  margin: 0;
-  font-size: 0.9rem;
-  color: #666;
 }
 
 footer {
   text-align: center;
   padding: 2rem 1rem;
-  color: #555;
+  background-color: #e9ece8;
+  border-top: 1px solid #d6dad4;
   font-size: 0.9rem;
+  color: #555;
 }
