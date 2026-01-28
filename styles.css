@@ -1,6 +1,12 @@
 * {
   box-sizing: border-box;
 }
+body {
+  background-color: #f7f9f8;
+  color: #1f2a2e;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
 
 body {
   margin: 0;
@@ -16,15 +22,23 @@ body {
   padding: 3rem 1.5rem;
 }
 
-.site-header {
-  background-color: #e9ece8;
-  border-bottom: 1px solid #d6dad4;
+header {
+  background-color: #2f4a4f;
+  color: #ffffff;
+  padding: 3rem 1.5rem;
+  text-align: center;
 }
 
-.site-header h1 {
-  margin: 0;
+header h1 {
   font-size: 2.5rem;
-  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+header p {
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0 auto;
+  
 }
 
 .tagline {
@@ -96,6 +110,15 @@ body {
 
 <section class="expectations">
   <h2>What to Expect Before Your Session</h2>
+
+section {
+  background-color: #ffffff;
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 900px;
+  border-radius: 6px;
+  
+}
 
   <p>
     Before your session, you do not need to prepare in any special way. There is no requirement to
@@ -171,8 +194,14 @@ body {
 
 
 a {
-  color: #2f2f2f;
+  color: #2f6f73;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
   text-decoration: underline;
+
 }
 
 .site-footer {
@@ -185,4 +214,11 @@ a {
   margin: 0;
   font-size: 0.9rem;
   color: #666;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: #555;
+  font-size: 0.9rem;
 }
