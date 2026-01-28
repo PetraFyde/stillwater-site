@@ -39,12 +39,9 @@ header p {
   max-height: 360px;
   object-fit: cover;
   display: block;
+
 }
-
-<section class="hero-image">
-  <img src="images/hero.jpg" alt="Calm, neutral environment supporting nervous system regulation">
-</section>
-
+  
 section {
   background-color: #ffffff;
   margin: 2rem auto;
